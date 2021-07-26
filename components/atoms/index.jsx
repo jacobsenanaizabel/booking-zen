@@ -1,3 +1,9 @@
 export { default as Title } from './Title';
 export { default as Input } from './Input';
 export { default as Button } from './Button';
+export { default as About } from './About';
+export { default as Avatar } from './Avatar';
+export { default as Description } from './Description';
+export { default as Price } from './Price';
+export { default as Rating } from './Rating';
+export { default as Text } from './Text';
