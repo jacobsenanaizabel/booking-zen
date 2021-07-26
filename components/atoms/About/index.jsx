@@ -1,7 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-//import { Container, ButtonStyled } from './styles';
-
 const About = () => {
 
   return (
