@@ -16,7 +16,6 @@ const ratingChanged = (newRating) => {
     <Info>
       <Text text="Psicologa" size="1rem" color="black" weight="700"/>  -  <Text text="Lisboa" size="1rem" color="black" weight="700"/>
     </Info>
-
     <Stars>      
       <ReactStars
         count={5}

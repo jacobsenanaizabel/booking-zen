@@ -2,10 +2,18 @@ import React from 'react';
 import App from 'next/app';
 import Head from 'next/head';
 import { global as GlobalStyle } from '../styles';
+import {
+  ApolloClient,
+  InMemoryCache,
+  ApolloProvider,
+} from "@apollo/client";
 
+const client = new ApolloClient({
+  uri: 'https://48p1r2roz4.sse.codesandbox.io',
+  cache: new InMemoryCache()
+});
 
 class MyApp extends App {
-
 
   render(){
     const {
@@ -15,7 +23,8 @@ class MyApp extends App {
     } = this.props;
 
     return (<>
-      <GlobalStyle />
+    <ApolloProvider client={client}>
+    <GlobalStyle />
       <Head>
         <meta
           name="viewport"
@@ -26,6 +35,7 @@ class MyApp extends App {
         />
       </Head>
       <Component {...pageProps} />
+    </ApolloProvider>
     </>
     )
   }
