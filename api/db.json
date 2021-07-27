@@ -1,0 +1,38 @@
+{
+    "beasts": [
+      {
+          "id": "md",
+          "legs": 6,
+          "binomial": "Musca domestica",
+          "commonName": "housefly"
+      },
+      {
+          "id": "nr",
+          "legs": 8,
+          "binomial": "Neriene radiata",
+          "commonName": "filmy dome spider"
+      },
+      {
+          "id": "cc",
+          "legs": 2,
+          "binomial": "Corvus corone",
+          "commonName": "carrion crow"
+      },
+      {
+          "id": "fc",
+          "legs": 4,
+          "binomial": "Felis catus",
+          "commonName": "cat"
+      },
+      {
+          "id": 21908,
+          "name": "Liz Fere",
+          "location": "Portugal, lisbon",
+          "profession": "Psychologist",
+          "price": "100 USD",
+          "rating": 4,
+          "ratingNumbers": "12 assessments",
+          "description": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+      }
+    ]
+  }
