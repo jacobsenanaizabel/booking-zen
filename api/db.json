@@ -1,29 +1,5 @@
 {
-    "beasts": [
-      {
-          "id": "md",
-          "legs": 6,
-          "binomial": "Musca domestica",
-          "commonName": "housefly"
-      },
-      {
-          "id": "nr",
-          "legs": 8,
-          "binomial": "Neriene radiata",
-          "commonName": "filmy dome spider"
-      },
-      {
-          "id": "cc",
-          "legs": 2,
-          "binomial": "Corvus corone",
-          "commonName": "carrion crow"
-      },
-      {
-          "id": "fc",
-          "legs": 4,
-          "binomial": "Felis catus",
-          "commonName": "cat"
-      },
+    "freelancers": [
       {
           "id": 21908,
           "name": "Liz Fere",
@@ -32,7 +8,27 @@
           "price": "100 USD",
           "rating": 4,
           "ratingNumbers": "12 assessments",
-          "description": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+          "description": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."
+      },
+      {
+        "id": 21909,
+        "name": "Anne Fleury",
+        "location": "Portugal, lisbon",
+        "profession": "Psychologist",
+        "price": "150 USD",
+        "rating": 10,
+        "ratingNumbers": "12 assessments",
+        "description": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."
+      },
+      {
+        "id": 21910,
+        "name": "Tom Silva",
+        "location": "Portugal, lisbon",
+        "profession": "Psychologist",
+        "price": "300 USD",
+        "rating": 2,
+        "ratingNumbers": "12 assessments",
+        "description": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."
       }
     ]
   }

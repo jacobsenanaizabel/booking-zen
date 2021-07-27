@@ -9,18 +9,18 @@ import {
   TextStyled
 } from './styles';
 
-const Card = () => (
+const Card = ({name, location, profession, price, rating, ratingNumbers, description}) => (
   <>
   <Container>
   <Profile>
     <Avatar/>
     <About>
-        <TextStyled text="Liz Feré" size="1.5rem" color="black"/>
+        <TextStyled text={name} size="1.5rem" color="black"/>
         <Rating></Rating>
-        <Price mount="R$ 160"/>
+        <Price mount={price}/>
     </About>
   </Profile>
-    <Description text="is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"/>
+    <Description text={description}/>
   </Container>
   </>
 );

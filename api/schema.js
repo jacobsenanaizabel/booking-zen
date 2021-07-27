@@ -1,27 +1,24 @@
 import { gql } from 'apollo-server-micro';
 import db from './db.json';
 
-// The statements within quotes are used by GraphQL to provide
-// human readable descriptions to developers using the API
 export const typeDefs = gql`
-	type Beast {
-		"ID of beast (taken from binomial initial)"
+	type Freelancers {
 		id: ID
-		"number of legs beast has"
-		legs: Int
-		"a beast's name in Latin"
-		binomial: String
-		"a beast's name to you and I"
-		commonName: String
+		name: String
+		location: String
+		profession: String
+		price: String
+		rating: Int
+		ratingNumbers: String
+		description: String
 	}
 
 	type Query {
-		beasts: [Beast]
+		freelancers: [Freelancers]
 	}
 `
 export const resolvers = {
 	Query: {
-		// Returns array of all beasts.
-		beasts: () => db.beasts,
+		freelancers: () => db.freelancers,
 	}
 }
