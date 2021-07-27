@@ -1,6 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { Button, Input } from '../../atoms';
+import { Button, Input } from '@components/atoms';
 
 import {
   Container
@@ -15,10 +14,5 @@ const Search = () => (
   </>
 );
 
-Search.propTypes = {
-};
-
-Search.defaultProps = {
-};
 
 export default Search;

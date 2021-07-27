@@ -4,18 +4,19 @@ import { Text } from '../../atoms';
 
 export const Container = styled.div`
     display: flex;
-    height: 60vh;
-    width: 100%;
-    margin: 2rem 0px 2rem 0px;
     background: #f7f0ff;
     flex-direction: column;
+    height: 100%;
+    margin: 2rem 0px 2rem 0px;
+    padding-bottom: 20px;
+    width: 100%;
 `
 
 export const About = styled.div`
     display: flex;
     flex-direction: column;
-    width: 50%;
     height: 100%;
+    width: 50%;
 }
 `
 

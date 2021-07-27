@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Avatar, Rating, Text, Price, Description } from '../../atoms';
+import { Avatar, Rating, Text, Price, Description } from '@components/atoms';
 
 import {
   Container,
@@ -19,6 +19,7 @@ const Card = ({name, location, profession, price, rating, ratingNumbers, descrip
         <Rating></Rating>
         <Price mount={price}/>
     </About>
+    <p>kkk</p>
   </Profile>
     <Description text={description}/>
   </Container>
@@ -26,9 +27,13 @@ const Card = ({name, location, profession, price, rating, ratingNumbers, descrip
 );
 
 Card.propTypes = {
-};
+  name: PropTypes.string,
+  location: PropTypes.string,
+  profession: PropTypes.string,
+  price: PropTypes.number,
+  rating: PropTypes.string,
+  ratingNumbers: PropTypes.string
 
-Card.defaultProps = {
 };
 
 export default Card;

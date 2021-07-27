@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Title } from '../../atoms';
-import { Search } from '../../organisms';
+import { Title } from '@components/atoms';
+import { Search } from '@components/organisms';
 
 import {
   Container
@@ -21,7 +21,5 @@ const Banner = () => (
 Banner.propTypes = {
 };
 
-Banner.defaultProps = {
-};
 
 export default Banner;

@@ -18,10 +18,10 @@ const Button = ({text}) => {
 };
 
 Button.propTypes = {
-  errorHandler: PropTypes.func,
+  text: PropTypes.string,
 };
 
 Button.defaultProps = {
-  errorHandler: null,
+  text: 'OK'
 };
 export default Button;
