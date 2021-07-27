@@ -30,7 +30,8 @@ function Home(props) {
       <Banner/>
       <GroupCards>
         {data.freelancers.map(freelancer => 
-          <Card name={freelancer.name} 
+          <Card key={freelancer.key}
+                name={freelancer.name} 
                 location={freelancer.location}
                 price={freelancer.price}
                 rating={freelancer.rating}
