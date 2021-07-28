@@ -1,40 +1,57 @@
 import React from 'react';
 import ReactStars from "react-rating-stars-component";
+import { useSnackbar } from 'react-simple-snackbar';
+
 
 import PropTypes from 'prop-types';
-import { Text } from '../index';
-import { Info, ContainerRating, Stars } from './styles';
 
-const Rating = () => {   
-const ratingChanged = (newRating) => {
-  console.log(newRating);
-};
+import { ContainerRating, Stars } from './styles';
+import  Text from '@components/atoms/Text';
+
+const Rating = ({rating , ratingNumbers}) => {   
+
+  const options = {
+    position: 'top-center',
+    style: {
+      backgroundColor: '#4a31a1',
+      color: '#ffffff',
+      fontSize: '20px',
+      textAlign: 'center',
+    },
+    closeStyle: {
+      color: '#ffffff',
+      fontSize: '16px',
+    },
+  }
+
+  const [openSnackbar] = useSnackbar(options)
+
+  const ratingChanged = (newRating) => {
+    openSnackbar('Thanks for rating!')
+  };
+
 
   return (
     <>
     <ContainerRating>
-    <Info>
-      <Text text="Psicologa" size="1rem" color="black" weight="700"/>  -  <Text text="Lisboa" size="1rem" color="black" weight="700"/>
-    </Info>
-    <Stars>      
-      <ReactStars
-        count={5}
-        onChange={ratingChanged}
-        size={24}
-        activeColor="#ffd700"
-      />
-      <Text text="(2 avaliações)" size="0.8rem" color="text" />
-    </Stars>
-  </ContainerRating>
+      <Stars>      
+        <ReactStars
+          count={rating}
+          onChange={ratingChanged}
+          size={24}
+          activeColor="#ffd700"
+          styles={{marginTop:'20px'}}
+        />
+        <Text text={`(${ratingNumbers})`} size="0.8rem" color="text" margin="0px 0px 0px 5px"/>
+      </Stars>
+    </ContainerRating>
     </>
   );
 };
 
 Rating.propTypes = {
-  errorHandler: PropTypes.func,
+  rating: PropTypes.number,
+  ratingNumbers: PropTypes.string
 };
 
-Rating.defaultProps = {
-  errorHandler: null,
-};
 export default Rating;

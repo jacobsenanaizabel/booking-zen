@@ -5,6 +5,7 @@ export const typeDefs = gql`
 	type Freelancers {
 		id: ID
 		name: String
+		img: String
 		location: String
 		profession: String
 		price: String

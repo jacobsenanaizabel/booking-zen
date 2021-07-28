@@ -1,10 +1,10 @@
 import React from 'react';
 import { InputStyled } from './styles';
 
-const Input = ({placeholder, onChange}) => {
+const Input = ({...other}) => {
   return (
     <>
-      <InputStyled placeholder={placeholder} onChange={onChange}/>
+      <InputStyled {...other}/>
     </>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Avatar, Rating, Text, Price, Description } from '@components/atoms';
+import { Avatar, Rating, Price, Description, Info } from '@components/atoms';
 
 import {
   Container,
@@ -9,17 +9,17 @@ import {
   TextStyled
 } from './styles';
 
-const Card = ({name, location, profession, price, rating, ratingNumbers, description}) => (
+const Card = ({name, img, location, profession, price, rating, ratingNumbers, description}) => (
   <>
   <Container>
   <Profile>
-    <Avatar/>
+    <Avatar img={img}/>
     <About>
         <TextStyled text={name} size="1.5rem" color="black"/>
-        <Rating></Rating>
+        <Info location={location} profession={profession} />
+        <Rating rating={rating} ratingNumbers={ratingNumbers}></Rating>
         <Price mount={price}/>
     </About>
-    <p>kkk</p>
   </Profile>
     <Description text={description}/>
   </Container>
@@ -31,7 +31,7 @@ Card.propTypes = {
   location: PropTypes.string,
   profession: PropTypes.string,
   price: PropTypes.number,
-  rating: PropTypes.string,
+  rating: PropTypes.number,
   ratingNumbers: PropTypes.string
 
 };

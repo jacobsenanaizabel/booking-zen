@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0px;
     border-style: none;
+    background-color: #fbfbfb;
   }
 
   @font-face {

@@ -2,14 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Container, ButtonStyled } from './styles';
 
-const Button = ({text}) => {
+const Button = ({text, ...other}) => {
 
   return (
     <Container>
       <ButtonStyled
         tabindex="0"
         role="button"
-        onClick={()=>{}}
+        {...other}
       >
        {text}
       </ButtonStyled>

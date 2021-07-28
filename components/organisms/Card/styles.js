@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import { Text } from '../../atoms';
 
-
 export const Container = styled.div`
     display: flex;
     background: #f7f0ff;
@@ -17,6 +16,7 @@ export const About = styled.div`
     flex-direction: column;
     height: 100%;
     width: 50%;
+    margin-right: 0.7rem;
 }
 `
 
