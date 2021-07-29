@@ -4,8 +4,6 @@ import { Title } from '@components/atoms';
 import { Search } from '@components/organisms';
 import banner from '@public/images/banner.png'
 
-
-
 import {
   Container,
   ImgBanner,
@@ -25,7 +23,8 @@ const Banner = ({searchFreelancer}) => (
           alt="Banner"
           layout="responsive"
           quality={100}
-          src={banner}/>
+          layout='fill'
+          src={banner || "/"}/>
       </ContainerImage>
     </Container>
   </>

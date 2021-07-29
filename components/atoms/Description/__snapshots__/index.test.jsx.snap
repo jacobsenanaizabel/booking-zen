@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Description tests should match snapshot with default Description 1`] = `
+<DocumentFragment>
+  <div
+    class="styles__ContainerDescription-sc-1j7k9k3-0 eveMRK"
+  >
+    <p
+      class="styles__Text-sc-tpjft1-0 jGCNOp"
+      color="text"
+    />
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Description tests should match snapshot with default Description with text 1`] = `
+<DocumentFragment>
+  <div
+    class="styles__ContainerDescription-sc-1j7k9k3-0 eveMRK"
+  >
+    <p
+      class="styles__Text-sc-tpjft1-0 jGCNOp"
+      color="text"
+    >
+      It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+  </div>
+</DocumentFragment>
+`;

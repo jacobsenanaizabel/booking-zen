@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Info tests should match snapshot with default Info 1`] = `
+<DocumentFragment>
+  <div
+    class="styles__ContainerInfo-sc-ks18od-0"
+  >
+    <div
+      class="styles__Info-sc-ks18od-1 gZmPJP"
+    >
+      <p
+        class="styles__Text-sc-tpjft1-0 llQDMz"
+        color="black"
+      />
+      <p
+        class="styles__Text-sc-tpjft1-0 ghGUWi"
+        color="purple"
+      >
+        - undefined
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Info tests should match snapshot with default Input with location 1`] = `
+<DocumentFragment>
+  <div
+    class="styles__ContainerInfo-sc-ks18od-0"
+  >
+    <div
+      class="styles__Info-sc-ks18od-1 gZmPJP"
+    >
+      <p
+        class="styles__Text-sc-tpjft1-0 llQDMz"
+        color="black"
+      />
+      <p
+        class="styles__Text-sc-tpjft1-0 ghGUWi"
+        color="purple"
+      >
+        - Brazil
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Info tests should match snapshot with default Input with location and profession 1`] = `
+<DocumentFragment>
+  <div
+    class="styles__ContainerInfo-sc-ks18od-0"
+  >
+    <div
+      class="styles__Info-sc-ks18od-1 gZmPJP"
+    >
+      <p
+        class="styles__Text-sc-tpjft1-0 llQDMz"
+        color="black"
+      >
+        coach
+      </p>
+      <p
+        class="styles__Text-sc-tpjft1-0 ghGUWi"
+        color="purple"
+      >
+        - Brazil
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Info tests should match snapshot with default Input with profession 1`] = `
+<DocumentFragment>
+  <div
+    class="styles__ContainerInfo-sc-ks18od-0"
+  >
+    <div
+      class="styles__Info-sc-ks18od-1 gZmPJP"
+    >
+      <p
+        class="styles__Text-sc-tpjft1-0 llQDMz"
+        color="black"
+      >
+        coach
+      </p>
+      <p
+        class="styles__Text-sc-tpjft1-0 ghGUWi"
+        color="purple"
+      >
+        - undefined
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

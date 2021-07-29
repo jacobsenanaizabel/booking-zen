@@ -32,8 +32,18 @@ Card.propTypes = {
   profession: PropTypes.string,
   price: PropTypes.number,
   rating: PropTypes.number,
-  ratingNumbers: PropTypes.string
+  ratingNumbers: PropTypes.string,
+  img: PropTypes.string
+};
 
+Card.defaultProps = {
+  name: '',
+  location: '',
+  profession: '',
+  price: 0,
+  rating: 1,
+  ratingNumbers: '0',
+  img: '/'
 };
 
 export default Card;

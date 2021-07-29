@@ -15,7 +15,7 @@ const Title = ({text, size, color, weight, margin}) => {
 };
 
 Title.propTypes = {
-  text: PropTypes.string
+  text: PropTypes.any
 };
 
 

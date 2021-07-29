@@ -1,24 +1,27 @@
-import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import React, { useState } from 'react';
 import { Banner } from '../../molecules';
 import { Card } from '../../organisms';
 import { gql, useQuery } from '@apollo/client';
 
 import { GroupCards } from './styles';
-function Home(props) {
-  const GET_PROFESSIONALS = gql`
-  query {
-    freelancers {
-      id
-      name
-      img
-      location
-      profession
-      price
-      rating
-      ratingNumbers
-      description
-    }
-  }`;
+
+export const GET_PROFESSIONALS = gql`
+query {
+  freelancers {
+    id
+    name
+    img
+    location
+    profession
+    price
+    rating
+    ratingNumbers
+    description
+  }
+}`;
+
+
+export function Home() {
 
   const [professionals, setProfessionals] = useState([]);
   const [values, setValue] = useState();
@@ -63,4 +66,4 @@ function Home(props) {
 }
 
 
-export default Home;
+
