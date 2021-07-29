@@ -50,7 +50,7 @@ exports[`Card tests should match snapshot with default Card 1`] = `
             class="styles__Stars-sc-1gutum1-1 LQptv"
           >
             <div
-              class="react-stars-wrapper-09797595088875752"
+              class="react-stars-wrapper-06548627177731192"
               style="display: flex;"
             >
               <div
@@ -167,7 +167,7 @@ exports[`Card tests should match snapshot with default Card with searchFreelance
             class="styles__Stars-sc-1gutum1-1 LQptv"
           >
             <div
-              class="react-stars-wrapper-04837270838118779"
+              class="react-stars-wrapper-028487246217964746"
               style="display: flex;"
             >
               <div

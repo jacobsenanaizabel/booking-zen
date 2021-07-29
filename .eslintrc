@@ -1,6 +1,6 @@
 {
   "extends": ["next", "next/core-web-vitals"],
-  "plugins": ["testing-library", "jest-dom"],
+  "plugins": ["jest-dom"],
   "globals": {
     "document": true,
     "fetch": true,
