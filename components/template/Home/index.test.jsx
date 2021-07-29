@@ -2,7 +2,7 @@ import React from 'react';
 import TestRenderer from 'react-test-renderer';
 import { act } from "react-dom/test-utils";
 import { MockedProvider } from '@apollo/client/testing';
-import {Home, GET_PROFESSIONALS} from '@components/template/Home/index';
+import {Home, GET_PROFESSIONALS} from './index';
 
 
 describe('Home tests', () => {

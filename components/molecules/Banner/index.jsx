@@ -21,10 +21,9 @@ const Banner = ({searchFreelancer}) => (
       <ContainerImage>
         <ImgBanner 
           alt="Banner"
-          layout="responsive"
           quality={100}
-          layout='fill'
-          src={banner || "/"}/>
+          layout='responsive'
+          src={banner}/>
       </ContainerImage>
     </Container>
   </>

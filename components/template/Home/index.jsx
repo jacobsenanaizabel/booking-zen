@@ -21,7 +21,7 @@ query {
 }`;
 
 
-export function Home() {
+export const Home = () => {
 
   const [professionals, setProfessionals] = useState([]);
   const [values, setValue] = useState();
@@ -39,11 +39,11 @@ export function Home() {
 
   return (
     <>
-      {data && professionals.freelancers && (
+      {data && professionals?.freelancers && (
         <>
         <Banner searchFreelancer={searchFreelancer}/>
         <GroupCards>
-          {professionals.freelancers.filter((freelancer) => 
+          {professionals?.freelancers.filter((freelancer) => 
             values === undefined || values.length < 1 ? freelancer : freelancer.name.toUpperCase().includes(values?.toUpperCase()) || freelancer.profession.toUpperCase().includes(values?.toUpperCase())
           ).map(freelancer => 
             <Card key={freelancer.key}

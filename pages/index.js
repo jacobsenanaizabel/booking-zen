@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home } from '../components/template/index';
+import { Home } from '../components/template/Home/index';
 import { createHttpLink, ApolloProvider, ApolloClient, InMemoryCache } from '@apollo/client';
 import SnackbarProvider from 'react-simple-snackbar'
 
