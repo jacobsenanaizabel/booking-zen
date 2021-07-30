@@ -43,77 +43,8 @@ exports[`Card tests should match snapshot with default Card 1`] = `
             </p>
           </div>
         </div>
-        <div
-          class="styles__ContainerRating-sc-1gutum1-0"
-        >
-          <div
-            class="styles__Stars-sc-1gutum1-1 LQptv"
-          >
-            <div
-              class="react-stars-wrapper-017131976970578333"
-              style="display: flex;"
-            >
-              <div
-                aria-label="add rating by typing an integer from 0 to 5 or pressing arrow keys"
-                class="undefined react-stars"
-                style="overflow: hidden; position: relative;"
-                tabindex="0"
-              >
-                <span
-                  class=""
-                  data-forhalf="★"
-                  data-index="0"
-                  style="position: relative; overflow: hidden; cursor: pointer; display: block; float: left; color: rgb(255, 215, 0); font-size: 24px;"
-                >
-                  ★
-                </span>
-                <span
-                  class=""
-                  data-forhalf="★"
-                  data-index="1"
-                  style="position: relative; overflow: hidden; cursor: pointer; display: block; float: left; color: gray; font-size: 24px;"
-                >
-                  ★
-                </span>
-                <span
-                  class=""
-                  data-forhalf="★"
-                  data-index="2"
-                  style="position: relative; overflow: hidden; cursor: pointer; display: block; float: left; color: gray; font-size: 24px;"
-                >
-                  ★
-                </span>
-                <span
-                  class=""
-                  data-forhalf="★"
-                  data-index="3"
-                  style="position: relative; overflow: hidden; cursor: pointer; display: block; float: left; color: gray; font-size: 24px;"
-                >
-                  ★
-                </span>
-                <span
-                  class=""
-                  data-forhalf="★"
-                  data-index="4"
-                  style="position: relative; overflow: hidden; cursor: pointer; display: block; float: left; color: gray; font-size: 24px;"
-                >
-                  ★
-                </span>
-                <p
-                  role="status"
-                  style="position: absolute; left: -200rem;"
-                >
-                  1
-                </p>
-              </div>
-            </div>
-            <p
-              class="styles__Text-sc-tpjft1-0 jSpzPB"
-              color="text"
-            >
-              (0)
-            </p>
-          </div>
+        <div>
+          Stars
         </div>
         <div
           class="styles__ContainerPrice-sc-l5bh20-0 dJJZvy"
@@ -192,77 +123,8 @@ exports[`Card tests should match snapshot with default Card with searchFreelance
             </p>
           </div>
         </div>
-        <div
-          class="styles__ContainerRating-sc-1gutum1-0"
-        >
-          <div
-            class="styles__Stars-sc-1gutum1-1 LQptv"
-          >
-            <div
-              class="react-stars-wrapper-012511161168513896"
-              style="display: flex;"
-            >
-              <div
-                aria-label="add rating by typing an integer from 0 to 5 or pressing arrow keys"
-                class="undefined react-stars"
-                style="overflow: hidden; position: relative;"
-                tabindex="0"
-              >
-                <span
-                  class=""
-                  data-forhalf="★"
-                  data-index="0"
-                  style="position: relative; overflow: hidden; cursor: pointer; display: block; float: left; color: rgb(255, 215, 0); font-size: 24px;"
-                >
-                  ★
-                </span>
-                <span
-                  class=""
-                  data-forhalf="★"
-                  data-index="1"
-                  style="position: relative; overflow: hidden; cursor: pointer; display: block; float: left; color: rgb(255, 215, 0); font-size: 24px;"
-                >
-                  ★
-                </span>
-                <span
-                  class=""
-                  data-forhalf="★"
-                  data-index="2"
-                  style="position: relative; overflow: hidden; cursor: pointer; display: block; float: left; color: rgb(255, 215, 0); font-size: 24px;"
-                >
-                  ★
-                </span>
-                <span
-                  class=""
-                  data-forhalf="★"
-                  data-index="3"
-                  style="position: relative; overflow: hidden; cursor: pointer; display: block; float: left; color: rgb(255, 215, 0); font-size: 24px;"
-                >
-                  ★
-                </span>
-                <span
-                  class=""
-                  data-forhalf="★"
-                  data-index="4"
-                  style="position: relative; overflow: hidden; cursor: pointer; display: block; float: left; color: rgb(255, 215, 0); font-size: 24px;"
-                >
-                  ★
-                </span>
-                <p
-                  role="status"
-                  style="position: absolute; left: -200rem;"
-                >
-                  5
-                </p>
-              </div>
-            </div>
-            <p
-              class="styles__Text-sc-tpjft1-0 jSpzPB"
-              color="text"
-            >
-              (2 comments)
-            </p>
-          </div>
+        <div>
+          Stars
         </div>
         <div
           class="styles__ContainerPrice-sc-l5bh20-0 dJJZvy"

@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Avatar, Rating, Price, Description, Info } from '@components/atoms';
+import { Avatar, Price, Description, Info } from '@components/atoms';
+import  Rating  from '@components/atoms/Rating';
 
 import {
   Container,

@@ -11,7 +11,7 @@ describe('Card tests', () => {
   });
 
   it('should match snapshot with default Card with searchFreelance', () => {
-
+  
     const props = {
         img: 'http:img.com',
         name: 'test',
