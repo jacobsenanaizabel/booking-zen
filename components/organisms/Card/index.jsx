@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Avatar, Price, Description, Info } from '@components/atoms';
+import { Calendar } from '@components/organisms';
 import  Rating  from '@components/atoms/Rating';
 
 import {
@@ -21,6 +22,7 @@ const Card = ({name, img, location, profession, price, rating, ratingNumbers, de
         <Rating rating={rating} ratingNumbers={ratingNumbers}></Rating>
         <Price mount={price}/>
     </About>
+    <Calendar/>
   </Profile>
     <Description text={description}/>
   </Container>
