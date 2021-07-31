@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import { colors } from '../../../styles';
+import { colors } from '@styles/index';
+
 
 export const Text = styled.p`
     display:grid;
@@ -7,5 +8,5 @@ export const Text = styled.p`
     font-family: Fira Sans,sans-serif;
     color:  ${(props) => (props.color ? props.color : colors.white)};
     font-weight: ${(props) => (props.weight ? props.weight : 'normal')};
-    margin: 20px 0px 0px 0px;
+    margin:  ${(props) => (props.margin ? props.margin  : '20px 0px 0px 0px')}; 
 `

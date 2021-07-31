@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button tests should match snapshot with default Avatar with url 1`] = `
+<DocumentFragment>
+  <div
+    class="styles__Container-sc-os8su5-0"
+  >
+    <button
+      class="styles__ButtonStyled-sc-os8su5-1 faeSvG"
+      role="button"
+    >
+      OK
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Button tests should match snapshot with default Button 1`] = `
+<DocumentFragment>
+  <div
+    class="styles__Container-sc-os8su5-0"
+  >
+    <button
+      class="styles__ButtonStyled-sc-os8su5-1 faeSvG"
+      role="button"
+    >
+      OK
+    </button>
+  </div>
+</DocumentFragment>
+`;

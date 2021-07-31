@@ -6,16 +6,16 @@ import {
 } from './styles';
 
 
-const Title = ({text, size, color, weight}) => {
+const Title = ({text, size, color, weight, margin}) => {
   return (
     <>
-        <TextStyled size={size} color={color} weight={weight} >{text}</TextStyled>
+        <TextStyled size={size} color={color} weight={weight} margin={margin} >{text}</TextStyled>
     </>
   );
 };
 
 Title.propTypes = {
-  text: PropTypes.string
+  text: PropTypes.any
 };
 
 

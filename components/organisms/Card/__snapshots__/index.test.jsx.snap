@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card tests should match snapshot with default Card 1`] = `
+<DocumentFragment>
+  <div
+    class="styles__Container-sc-173llyf-0 eAfLlQ"
+  >
+    <div
+      class="styles__Profile-sc-173llyf-2 gTWmfi"
+    >
+      <div
+        class="styles__ContainerAvatar-sc-2niw0e-0"
+      >
+        <figure>
+          <img
+            class="styles__User-sc-2niw0e-1 eqmrgD"
+            src="/"
+          />
+        </figure>
+      </div>
+      <div
+        class="styles__About-sc-173llyf-1 bWkefv"
+      >
+        <p
+          class="styles__Text-sc-tpjft1-0 byLudI"
+          color="black"
+        />
+        <div
+          class="styles__ContainerInfo-sc-ks18od-0"
+        >
+          <div
+            class="styles__Info-sc-ks18od-1 gZmPJP"
+          >
+            <p
+              class="styles__Text-sc-tpjft1-0 llQDMz"
+              color="black"
+            />
+            <p
+              class="styles__Text-sc-tpjft1-0 ghGUWi"
+              color="purple"
+            >
+              - 
+            </p>
+          </div>
+        </div>
+        <div>
+          Stars
+        </div>
+        <div
+          class="styles__ContainerPrice-sc-l5bh20-0 dJJZvy"
+        >
+          <p
+            class="styles__Text-sc-tpjft1-0 eFfUut"
+            color="text"
+          >
+            0
+          </p>
+          <p
+            class="styles__Text-sc-tpjft1-0 jGCNOp"
+            color="text"
+          >
+             / 50 minutos
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="styles__ContainerDescription-sc-1j7k9k3-0 eveMRK"
+    >
+      <p
+        class="styles__Text-sc-tpjft1-0 jGCNOp"
+        color="text"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Card tests should match snapshot with default Card with searchFreelance 1`] = `
+<DocumentFragment>
+  <div
+    class="styles__Container-sc-173llyf-0 eAfLlQ"
+  >
+    <div
+      class="styles__Profile-sc-173llyf-2 gTWmfi"
+    >
+      <div
+        class="styles__ContainerAvatar-sc-2niw0e-0"
+      >
+        <figure>
+          <img
+            class="styles__User-sc-2niw0e-1 eqmrgD"
+            src="http:img.com"
+          />
+        </figure>
+      </div>
+      <div
+        class="styles__About-sc-173llyf-1 bWkefv"
+      >
+        <p
+          class="styles__Text-sc-tpjft1-0 byLudI"
+          color="black"
+        >
+          test
+        </p>
+        <div
+          class="styles__ContainerInfo-sc-ks18od-0"
+        >
+          <div
+            class="styles__Info-sc-ks18od-1 gZmPJP"
+          >
+            <p
+              class="styles__Text-sc-tpjft1-0 llQDMz"
+              color="black"
+            >
+              coach
+            </p>
+            <p
+              class="styles__Text-sc-tpjft1-0 ghGUWi"
+              color="purple"
+            >
+              - now
+            </p>
+          </div>
+        </div>
+        <div>
+          Stars
+        </div>
+        <div
+          class="styles__ContainerPrice-sc-l5bh20-0 dJJZvy"
+        >
+          <p
+            class="styles__Text-sc-tpjft1-0 eFfUut"
+            color="text"
+          >
+            100
+          </p>
+          <p
+            class="styles__Text-sc-tpjft1-0 jGCNOp"
+            color="text"
+          >
+             / 50 minutos
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="styles__ContainerDescription-sc-1j7k9k3-0 eveMRK"
+    >
+      <p
+        class="styles__Text-sc-tpjft1-0 jGCNOp"
+        color="text"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

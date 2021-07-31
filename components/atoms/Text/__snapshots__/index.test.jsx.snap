@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text tests should match snapshot with default Text 1`] = `
+<DocumentFragment>
+  <p
+    class="styles__Text-sc-tpjft1-0 hvhVHE"
+  />
+</DocumentFragment>
+`;
+
+exports[`Text tests should match snapshot with default Text with color 1`] = `
+<div>
+  <p
+    class="styles__Text-sc-tpjft1-0 erpmEK"
+    color="text"
+  >
+    Testing text
+  </p>
+  <p
+    class="styles__Text-sc-tpjft1-0 iRhMhG"
+    color="violet"
+  >
+    Testing text
+  </p>
+  <p
+    class="styles__Text-sc-tpjft1-0 cUvknR"
+    color="purple"
+  >
+    Testing text
+  </p>
+  <p
+    class="styles__Text-sc-tpjft1-0 hmGMUU"
+    color="black"
+  >
+    Testing text
+  </p>
+  <p
+    class="styles__Text-sc-tpjft1-0 kzzsuD"
+    color="border"
+  >
+    Testing text
+  </p>
+</div>
+`;
+
+exports[`Text tests should match snapshot with default Text with font-weight 1`] = `
+<DocumentFragment>
+  <p
+    class="styles__Text-sc-tpjft1-0 gSaWih"
+  >
+    Testing text
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Text tests should match snapshot with default Text with margin 1`] = `
+<DocumentFragment>
+  <p
+    class="styles__Text-sc-tpjft1-0 erxhS"
+  >
+    Testing text
+  </p>
+</DocumentFragment>
+`;
+
+exports[`Text tests should match snapshot with default Text with size 1`] = `
+<DocumentFragment>
+  <p
+    class="styles__Text-sc-tpjft1-0 jxPzZx"
+  >
+    Testing text
+  </p>
+</DocumentFragment>
+`;

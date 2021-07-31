@@ -10,6 +10,17 @@
           "displayName": true,
           "preprocess": false
         }
+      ],
+      ["@babel/plugin-proposal-decorators", { "legacy": true }]
+    ],
+    "overrides": [{
+      "include": [
+        "./node_modules"
+      ],
+      "plugins": [
+        ["babel-plugin-transform-require-ignore", {
+          "extensions": [".css"]
+        }]
       ]
-    ]
+    }]
   }

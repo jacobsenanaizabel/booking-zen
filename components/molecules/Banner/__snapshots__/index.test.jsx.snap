@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Banner tests should match snapshot with default Banner 1`] = `
+<DocumentFragment>
+  <section
+    class="styles__Container-sc-12btswz-0 bVjqLC"
+  >
+    <div
+      class="styles__ContainerContent-sc-12btswz-2 iKmYnb"
+    >
+      <div
+        class="styles__ContainerTitle-sc-17f0diz-1 gTYlEp"
+      >
+        <h1
+          class="styles__Heading-sc-17f0diz-0 iYJgeC"
+        >
+          Find your expert 🎉
+        </h1>
+      </div>
+      <div
+        class="styles__Container-sc-v1l7xw-0 kMwZu"
+      >
+        <input
+          class="styles__InputStyled-sc-1i43h77-0 fULZLo"
+          name="search"
+          placeholder="Find an expert by specialty or name"
+          type="text"
+          value=""
+        />
+        <div
+          class="styles__Container-sc-os8su5-0"
+        >
+          <button
+            class="styles__ButtonStyled-sc-os8su5-1 faeSvG"
+            role="button"
+          >
+            Search
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="styles__ContainerImage-sc-12btswz-3 bOMnKa"
+    >
+      <img
+        alt="Banner"
+        class="styles__ImgBanner-sc-12btswz-1 cGcVfH"
+        layout="responsive"
+        quality="100"
+        src="[object Object]"
+      />
+    </div>
+  </section>
+</DocumentFragment>
+`;
+
+exports[`Banner tests should match snapshot with default Banner with searchFreelance 1`] = `
+<DocumentFragment>
+  <section
+    class="styles__Container-sc-12btswz-0 bVjqLC"
+  >
+    <div
+      class="styles__ContainerContent-sc-12btswz-2 iKmYnb"
+    >
+      <div
+        class="styles__ContainerTitle-sc-17f0diz-1 gTYlEp"
+      >
+        <h1
+          class="styles__Heading-sc-17f0diz-0 iYJgeC"
+        >
+          Find your expert 🎉
+        </h1>
+      </div>
+      <div
+        class="styles__Container-sc-v1l7xw-0 kMwZu"
+      >
+        <input
+          class="styles__InputStyled-sc-1i43h77-0 fULZLo"
+          name="search"
+          placeholder="Find an expert by specialty or name"
+          type="text"
+          value=""
+        />
+        <div
+          class="styles__Container-sc-os8su5-0"
+        >
+          <button
+            class="styles__ButtonStyled-sc-os8su5-1 faeSvG"
+            role="button"
+          >
+            Search
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="styles__ContainerImage-sc-12btswz-3 bOMnKa"
+    >
+      <img
+        alt="Banner"
+        class="styles__ImgBanner-sc-12btswz-1 cGcVfH"
+        layout="responsive"
+        quality="100"
+        src="[object Object]"
+      />
+    </div>
+  </section>
+</DocumentFragment>
+`;

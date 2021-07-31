@@ -2,13 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import {
-  Heading
+  Heading, 
+  ContainerTitle
 } from './styles';
 
 const Title = ({text}) => {
   return (
     <>
+    <ContainerTitle>
         <Heading>{text}</Heading>
+    </ContainerTitle>
     </>
   );
 };

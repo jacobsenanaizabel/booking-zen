@@ -1,27 +1,37 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Title } from '../../atoms';
-import { Search } from '../../organisms';
+import { Title } from '@components/atoms';
+import { Search } from '@components/organisms';
+import banner from '@public/images/banner.png'
 
 import {
-  Container
+  Container,
+  ImgBanner,
+  ContainerImage,
+  ContainerContent
 } from './styles';
 
-const Banner = () => (
+const Banner = ({searchFreelancer}) => (
   <>
     <Container>
-      <Title text="Encontre seu especialista"/>
-      <div>
-        <Search/>
-      </div>
+      <ContainerContent>
+        <Title text="Find your expert &#127881;" />
+        <Search searchFreelancer={searchFreelancer}/>
+      </ContainerContent>
+      <ContainerImage>
+        <ImgBanner 
+          alt="Banner"
+          quality={100}
+          layout='responsive'
+          src={banner}/>
+      </ContainerImage>
     </Container>
   </>
 );
 
 Banner.propTypes = {
+  searchFreelancer: PropTypes.func
 };
 
-Banner.defaultProps = {
-};
 
 export default Banner;
