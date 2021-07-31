@@ -4,7 +4,8 @@ import Head from 'next/head';
 import '@fullcalendar/common/main.css'
 import '@fullcalendar/daygrid/main.css'
 import '@fullcalendar/timegrid/main.css'
-import '../global-styles.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import { global as GlobalStyle } from '../styles';
 

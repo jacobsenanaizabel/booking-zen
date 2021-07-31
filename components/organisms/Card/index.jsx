@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Avatar, Price, Description, Info } from '@components/atoms';
-import { Calendar } from '@components/organisms';
+import { Booking } from '@components/organisms';
 import  Rating  from '@components/atoms/Rating';
 
 import {
@@ -14,17 +14,18 @@ import {
 const Card = ({name, img, location, profession, price, rating, ratingNumbers, description}) => (
   <>
   <Container>
-  <Profile>
     <Avatar img={img}/>
-    <About>
-        <TextStyled text={name} size="1.5rem" color="black"/>
-        <Info location={location} profession={profession} />
-        <Rating rating={rating} ratingNumbers={ratingNumbers}></Rating>
-        <Price mount={price}/>
-    </About>
-    <Calendar/>
-  </Profile>
-    <Description text={description}/>
+    <Profile>
+      <About>
+          <TextStyled text={name} size="1.5rem" color="black"/>
+          <Info location={location} profession={profession} />
+          <Rating rating={rating} ratingNumbers={ratingNumbers}></Rating>
+          <Price mount={price}/>
+          <Description text={description}/>
+      </About>
+      
+    </Profile>
+    <Booking />
   </Container>
   </>
 );

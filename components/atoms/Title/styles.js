@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors } from '@styles/index';
+import { colors, media } from '@styles/index';
 
 export const Heading = styled.h1`
     display: flex;
@@ -14,4 +14,10 @@ export const ContainerTitle = styled.div`
     flex-direction: column;
     justify-content: center;
     width: 89vh;
+
+       
+    ${media.xs`
+        margin-bottom: 30px;
+    `}
+
 `
