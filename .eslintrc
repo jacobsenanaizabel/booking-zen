@@ -16,7 +16,8 @@
     "react/static-property-placement": "off",
     "no-restricted-globals": "off",
     "no-use-before-define": "off",
-    "react-hooks/exhaustive-deps": "off"
+    "react-hooks/exhaustive-deps": "off",
+    "@next/next/no-img-element": "off"
   },
   "settings": {
     "import/resolver": {
