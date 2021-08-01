@@ -1,7 +1,7 @@
 ## Booking zen ![Vercel](http://therealsujitk-vercel-badge.vercel.app/?app=therealsujitk-vercel-badge)
 
 <p align="center">
-  <img src="https://i.imgur.com/9jJq4lK.jpg"/>
+  <img src="https://t.ctcdn.com.br/9ZGcxXfkcroU6zyHl6ydiMJF2Yo=/55x0:966x513/911x512/smart/i393535.png"/>
 </p>
 
 ### Architecture and technologies used 
