@@ -4,6 +4,7 @@ exports[`Input tests should match snapshot with default Input 1`] = `
 <DocumentFragment>
   <input
     class="styles__InputStyled-sc-1i43h77-0 fULZLo"
+    data-testid="input"
   />
 </DocumentFragment>
 `;
@@ -12,6 +13,7 @@ exports[`Input tests should match snapshot with default Input with placeholder 1
 <DocumentFragment>
   <input
     class="styles__InputStyled-sc-1i43h77-0 fULZLo"
+    data-testid="input"
     placeholder="Find an expert by specialty or name"
   />
 </DocumentFragment>

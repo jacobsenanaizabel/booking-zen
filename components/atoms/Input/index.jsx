@@ -4,7 +4,7 @@ import { InputStyled } from './styles';
 const Input = ({...other}) => {
   return (
     <>
-      <InputStyled {...other}/>
+      <InputStyled {...other} data-testid="input"/>
     </>
   );
 }

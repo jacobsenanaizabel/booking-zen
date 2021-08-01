@@ -7,7 +7,7 @@ import {
 
 const Search = ({searchFreelancer}) => {
 
-  const [search, setSearch] = useState();
+  const [search, setSearch] = useState('');
 
   function onChangeSearching(evt){
     setSearch(evt.target.value)

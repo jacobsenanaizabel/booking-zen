@@ -9,7 +9,7 @@ exports[`Banner tests should match snapshot with default Banner 1`] = `
       class="styles__ContainerContent-sc-12btswz-2 iKmYnb"
     >
       <div
-        class="styles__ContainerTitle-sc-17f0diz-1 gTYlEp"
+        class="styles__ContainerTitle-sc-17f0diz-1 kMIxue"
       >
         <h1
           class="styles__Heading-sc-17f0diz-0 iYJgeC"
@@ -22,6 +22,7 @@ exports[`Banner tests should match snapshot with default Banner 1`] = `
       >
         <input
           class="styles__InputStyled-sc-1i43h77-0 fULZLo"
+          data-testid="input"
           name="search"
           placeholder="Find an expert by specialty or name"
           type="text"
@@ -63,7 +64,7 @@ exports[`Banner tests should match snapshot with default Banner with searchFreel
       class="styles__ContainerContent-sc-12btswz-2 iKmYnb"
     >
       <div
-        class="styles__ContainerTitle-sc-17f0diz-1 gTYlEp"
+        class="styles__ContainerTitle-sc-17f0diz-1 kMIxue"
       >
         <h1
           class="styles__Heading-sc-17f0diz-0 iYJgeC"
@@ -76,6 +77,7 @@ exports[`Banner tests should match snapshot with default Banner with searchFreel
       >
         <input
           class="styles__InputStyled-sc-1i43h77-0 fULZLo"
+          data-testid="input"
           name="search"
           placeholder="Find an expert by specialty or name"
           type="text"
