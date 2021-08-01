@@ -30,14 +30,17 @@ The first step, you must log into vercel account to run the project with the com
 ```bash
 npx vercel login
 ```
-Depois da confirmação de e-mail , podemos rodar 
+you will have to enter the address used to sign up to Vercel, a confirmation email will be sent and once verified it will confirm in the terminal. Once done we upload:
 ```bash
 npx vercel --prod
 ```
+Accept all of the default options and, once uploaded, Vercel will confirm it has built correctly and will provide your application’s URL. 
+
 
 After there you can run local with 
 ```bash
-start:dev
+yarn install
+yarn run start:dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000)  🎉
