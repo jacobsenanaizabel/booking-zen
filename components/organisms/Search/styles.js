@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { media } from '@styles/index';
 
 export const Container = styled.div`
     display: flex;
@@ -7,4 +8,9 @@ export const Container = styled.div`
     justify-content: center;
     height: 50%;
     align-items: center;
+
+           
+    ${media.xs`
+        width: 100%;
+    `}
 `

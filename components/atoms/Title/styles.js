@@ -18,6 +18,7 @@ export const ContainerTitle = styled.div`
        
     ${media.xs`
         margin-bottom: 30px;
+        width: 100%;
     `}
 
 `

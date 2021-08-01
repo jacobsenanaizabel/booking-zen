@@ -3,13 +3,13 @@
 exports[`Banner tests should match snapshot with default Banner 1`] = `
 <DocumentFragment>
   <section
-    class="styles__Container-sc-12btswz-0 bVjqLC"
+    class="styles__Container-sc-12btswz-0 jUsEmZ"
   >
     <div
       class="styles__ContainerContent-sc-12btswz-2 iKmYnb"
     >
       <div
-        class="styles__ContainerTitle-sc-17f0diz-1 kMIxue"
+        class="styles__ContainerTitle-sc-17f0diz-1 gREHin"
       >
         <h1
           class="styles__Heading-sc-17f0diz-0 iYJgeC"
@@ -18,7 +18,7 @@ exports[`Banner tests should match snapshot with default Banner 1`] = `
         </h1>
       </div>
       <div
-        class="styles__Container-sc-v1l7xw-0 kMwZu"
+        class="styles__Container-sc-v1l7xw-0 AYMgU"
       >
         <input
           class="styles__InputStyled-sc-1i43h77-0 fULZLo"
@@ -41,7 +41,7 @@ exports[`Banner tests should match snapshot with default Banner 1`] = `
       </div>
     </div>
     <div
-      class="styles__ContainerImage-sc-12btswz-3 bOMnKa"
+      class="styles__ContainerImage-sc-12btswz-3 hMmuUC"
     >
       <img
         alt="Banner"
@@ -58,13 +58,13 @@ exports[`Banner tests should match snapshot with default Banner 1`] = `
 exports[`Banner tests should match snapshot with default Banner with searchFreelance 1`] = `
 <DocumentFragment>
   <section
-    class="styles__Container-sc-12btswz-0 bVjqLC"
+    class="styles__Container-sc-12btswz-0 jUsEmZ"
   >
     <div
       class="styles__ContainerContent-sc-12btswz-2 iKmYnb"
     >
       <div
-        class="styles__ContainerTitle-sc-17f0diz-1 kMIxue"
+        class="styles__ContainerTitle-sc-17f0diz-1 gREHin"
       >
         <h1
           class="styles__Heading-sc-17f0diz-0 iYJgeC"
@@ -73,7 +73,7 @@ exports[`Banner tests should match snapshot with default Banner with searchFreel
         </h1>
       </div>
       <div
-        class="styles__Container-sc-v1l7xw-0 kMwZu"
+        class="styles__Container-sc-v1l7xw-0 AYMgU"
       >
         <input
           class="styles__InputStyled-sc-1i43h77-0 fULZLo"
@@ -96,7 +96,7 @@ exports[`Banner tests should match snapshot with default Banner with searchFreel
       </div>
     </div>
     <div
-      class="styles__ContainerImage-sc-12btswz-3 bOMnKa"
+      class="styles__ContainerImage-sc-12btswz-3 hMmuUC"
     >
       <img
         alt="Banner"

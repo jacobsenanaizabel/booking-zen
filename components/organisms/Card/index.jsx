@@ -34,7 +34,7 @@ Card.propTypes = {
   name: PropTypes.string,
   location: PropTypes.string,
   profession: PropTypes.string,
-  price: PropTypes.number,
+  price: PropTypes.string,
   rating: PropTypes.number,
   ratingNumbers: PropTypes.string,
   img: PropTypes.string
@@ -44,7 +44,7 @@ Card.defaultProps = {
   name: '',
   location: '',
   profession: '',
-  price: 0,
+  price: '0',
   rating: 1,
   ratingNumbers: '0',
   img: '/'

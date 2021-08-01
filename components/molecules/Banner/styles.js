@@ -11,6 +11,7 @@ export const Container = styled.section`
     ${media.xs`
         background-image: none;
         background-color: ${colors.violet};
+        grid-template-columns: 1fr;
     `}
 
 `
@@ -45,4 +46,8 @@ export const ContainerImage =  styled.div`
     display:grid;
     width: 100%;
     height: 90%;
+    
+    ${media.xs`
+        display:none;
+    `}
 `

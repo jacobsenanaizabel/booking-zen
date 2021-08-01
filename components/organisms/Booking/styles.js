@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors } from '@styles/index';
+import { colors, media } from '@styles/index';
 
 export const Heading = styled.h1`
     display: flex;
@@ -34,5 +34,9 @@ export const ContainerCalendar = styled.div`
         color: ${colors.text};
         text-decoration: none;
     }
+
+    ${media.xs`
+        width: 90%;
+    `}
 
 `
