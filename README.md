@@ -44,7 +44,7 @@ yarn install
 yarn run start:dev
 ```
 
-[!IMPORTANT] For booking session you must login with test user oauthtusertest@gmail.com
+**IMPORTANT:** For booking session you must login with test user oauthtusertest@gmail.com
 that is included in the accepted user list of the test Application of Google developers 
 
 Open [http://localhost:3000](http://localhost:3000)  🎉
