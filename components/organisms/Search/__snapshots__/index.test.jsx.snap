@@ -3,7 +3,7 @@
 exports[`Search tests should match snapshot with default Search 1`] = `
 <DocumentFragment>
   <div
-    class="styles__Container-sc-v1l7xw-0 kMwZu"
+    class="styles__Container-sc-v1l7xw-0 AYMgU"
   >
     <input
       class="styles__InputStyled-sc-1i43h77-0 fULZLo"
@@ -30,7 +30,7 @@ exports[`Search tests should match snapshot with default Search 1`] = `
 exports[`Search tests should match snapshot with default Search with searchFreelance 1`] = `
 <DocumentFragment>
   <div
-    class="styles__Container-sc-v1l7xw-0 kMwZu"
+    class="styles__Container-sc-v1l7xw-0 AYMgU"
   >
     <input
       class="styles__InputStyled-sc-1i43h77-0 fULZLo"

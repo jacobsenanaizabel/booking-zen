@@ -3,7 +3,7 @@
 exports[`Description tests should match snapshot with default Description 1`] = `
 <DocumentFragment>
   <div
-    class="styles__ContainerDescription-sc-1j7k9k3-0 jVaJGV"
+    class="styles__ContainerDescription-sc-1j7k9k3-0 lhONri"
   >
     <p
       class="styles__Text-sc-tpjft1-0 jGCNOp"
@@ -16,7 +16,7 @@ exports[`Description tests should match snapshot with default Description 1`] = 
 exports[`Description tests should match snapshot with default Description with text 1`] = `
 <DocumentFragment>
   <div
-    class="styles__ContainerDescription-sc-1j7k9k3-0 jVaJGV"
+    class="styles__ContainerDescription-sc-1j7k9k3-0 lhONri"
   >
     <p
       class="styles__Text-sc-tpjft1-0 jGCNOp"

@@ -10,6 +10,7 @@ export const ContainerAvatar = styled.div`
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-right: 0%;
   `}
 `;
 
@@ -19,5 +20,9 @@ export const User = styled.img`
   width: 100%;
   height: auto;
   margin: 1.7rem;
+
+  ${media.xs`
+    margin: 10px 0px 0px 0px;
+`}
 
 `

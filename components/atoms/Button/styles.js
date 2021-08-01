@@ -1,7 +1,9 @@
 import styled from 'styled-components';
  import { media, colors } from '@styles/index';
 
-export const Container = styled.div``;
+export const Container = styled.div`
+
+`;
 
 export const ButtonStyled = styled.button`
   background: ${colors.purple};
