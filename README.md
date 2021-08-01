@@ -1,12 +1,14 @@
 ## Booking zen ![Vercel](http://therealsujitk-vercel-badge.vercel.app/?app=therealsujitk-vercel-badge)
 
-
-![image](https://img.freepik.com/free-vector/woman-meditating-nature-leaves_113065-27.jpg?size=626&ext=jpg)
+<p align="center">
+  <img src="https://i.imgur.com/9jJq4lK.jpg"/>
+</p>
 
 ### Architecture and technologies used 
 
-![image](https://i.imgur.com/L9qvoev.png)
-
+<p align="center">
+  <img src="https://i.imgur.com/L9qvoev.png"/>
+</p>
 
 #### Client 
 Client was made in NextJS, for his perfomance in React projects and for easy, faster and simple deploy and CI in [Vercel](https://vercel.com/).
