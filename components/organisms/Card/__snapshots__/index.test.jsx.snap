@@ -3,23 +3,23 @@
 exports[`Card tests should match snapshot with default Card 1`] = `
 <DocumentFragment>
   <div
-    class="styles__Container-sc-173llyf-0 eAfLlQ"
+    class="styles__Container-sc-173llyf-0 ZvqUv"
   >
     <div
-      class="styles__Profile-sc-173llyf-2 gTWmfi"
+      class="styles__ContainerAvatar-sc-2niw0e-0 hBSnoR"
+    >
+      <figure>
+        <img
+          class="styles__User-sc-2niw0e-1 fZoBAq"
+          src="/"
+        />
+      </figure>
+    </div>
+    <div
+      class="styles__Profile-sc-173llyf-2 hEXDum"
     >
       <div
-        class="styles__ContainerAvatar-sc-2niw0e-0"
-      >
-        <figure>
-          <img
-            class="styles__User-sc-2niw0e-1 eqmrgD"
-            src="/"
-          />
-        </figure>
-      </div>
-      <div
-        class="styles__About-sc-173llyf-1 bWkefv"
+        class="styles__About-sc-173llyf-1 bsNOCs"
       >
         <p
           class="styles__Text-sc-tpjft1-0 byLudI"
@@ -62,15 +62,15 @@ exports[`Card tests should match snapshot with default Card 1`] = `
              / 50 minutos
           </p>
         </div>
+        <div
+          class="styles__ContainerDescription-sc-1j7k9k3-0 jVaJGV"
+        >
+          <p
+            class="styles__Text-sc-tpjft1-0 jGCNOp"
+            color="text"
+          />
+        </div>
       </div>
-    </div>
-    <div
-      class="styles__ContainerDescription-sc-1j7k9k3-0 eveMRK"
-    >
-      <p
-        class="styles__Text-sc-tpjft1-0 jGCNOp"
-        color="text"
-      />
     </div>
   </div>
 </DocumentFragment>
@@ -79,23 +79,23 @@ exports[`Card tests should match snapshot with default Card 1`] = `
 exports[`Card tests should match snapshot with default Card with searchFreelance 1`] = `
 <DocumentFragment>
   <div
-    class="styles__Container-sc-173llyf-0 eAfLlQ"
+    class="styles__Container-sc-173llyf-0 ZvqUv"
   >
     <div
-      class="styles__Profile-sc-173llyf-2 gTWmfi"
+      class="styles__ContainerAvatar-sc-2niw0e-0 hBSnoR"
+    >
+      <figure>
+        <img
+          class="styles__User-sc-2niw0e-1 fZoBAq"
+          src="http:img.com"
+        />
+      </figure>
+    </div>
+    <div
+      class="styles__Profile-sc-173llyf-2 hEXDum"
     >
       <div
-        class="styles__ContainerAvatar-sc-2niw0e-0"
-      >
-        <figure>
-          <img
-            class="styles__User-sc-2niw0e-1 eqmrgD"
-            src="http:img.com"
-          />
-        </figure>
-      </div>
-      <div
-        class="styles__About-sc-173llyf-1 bWkefv"
+        class="styles__About-sc-173llyf-1 bsNOCs"
       >
         <p
           class="styles__Text-sc-tpjft1-0 byLudI"
@@ -142,15 +142,15 @@ exports[`Card tests should match snapshot with default Card with searchFreelance
              / 50 minutos
           </p>
         </div>
+        <div
+          class="styles__ContainerDescription-sc-1j7k9k3-0 jVaJGV"
+        >
+          <p
+            class="styles__Text-sc-tpjft1-0 jGCNOp"
+            color="text"
+          />
+        </div>
       </div>
-    </div>
-    <div
-      class="styles__ContainerDescription-sc-1j7k9k3-0 eveMRK"
-    >
-      <p
-        class="styles__Text-sc-tpjft1-0 jGCNOp"
-        color="text"
-      />
     </div>
   </div>
 </DocumentFragment>

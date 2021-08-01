@@ -15,5 +15,6 @@ module.exports = {
       "^@styles(.*)$": "<rootDir>/styles$1",
       "^@pages(.*)$": "<rootDir>/pages$1",
       "^@public(.*)$": "<rootDir>/public$1",
+      "^@constants(.*)$": "<rootDir>/constants$1",
     },
 };

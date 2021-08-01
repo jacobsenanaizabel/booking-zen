@@ -7,6 +7,7 @@ exports[`Search tests should match snapshot with default Search 1`] = `
   >
     <input
       class="styles__InputStyled-sc-1i43h77-0 fULZLo"
+      data-testid="input"
       name="search"
       placeholder="Find an expert by specialty or name"
       type="text"
@@ -33,6 +34,7 @@ exports[`Search tests should match snapshot with default Search with searchFreel
   >
     <input
       class="styles__InputStyled-sc-1i43h77-0 fULZLo"
+      data-testid="input"
       name="search"
       placeholder="Find an expert by specialty or name"
       type="text"
