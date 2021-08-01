@@ -26,7 +26,7 @@ Api was made with [Apollo server](https://www.apollographql.com/docs/), to simpl
 For the deploy, was choosen [Vercel](https://vercel.com) because it works well with NextJS, in addition to simplified deploy and ci, it has a good cache performance management with Nextjs
 
 
-#### Instructions
+### Instructions
 The first step the run the application is to log into vercel's account to run the project with the commands below
 ```bash
 npx vercel login
