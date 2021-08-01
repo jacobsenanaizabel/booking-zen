@@ -8,22 +8,22 @@
 ![image](https://i.imgur.com/L9qvoev.png)
 
 
-####Client 
+#### Client 
 Client was made in NextJS, for his perfomance in React projects and for easy, faster and simple deploy and CI in [Vercel](https://vercel.com/).
 
 The methodology choose for creation component was [Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/)
 
 The responsiveness was done with CSS Grid, CSS flexbox and media querys
 
-####Api
+#### Api
 
 Api was made with [Apollo server](https://www.apollographql.com/docs/), to simplify the interaction with graphql. GraphQL was chosen for been multiple platforms and simplifying integration with api and complex states
 
-####Deploy
+#### Deploy
 For deploy was choose [Vercel](https://vercel.com) because he works well with NextJS, in addition to simplified deploy and ci, it has good cache performance management with Nextjs
 
 
-####Instructions
+#### Instructions
 The first step, you must log into vercel account to run the project with the commands below
 ```bash
 npx vercel login
